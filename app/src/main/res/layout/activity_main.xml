@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpage"
+    tools:context=".buyer.MainActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/farmapplogo" />
+
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="160dp"
+        android:text="one voice farmer's choice"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/seller_begin"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/button"
+        android:padding="12dp"
+        android:text="Already user? login"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+
+        />
+
+
+    <Button
+        android:id="@+id/join_now_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/login_btn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/input_design"
+        android:padding="12dp"
+        android:textAllCaps="false"
+        android:text="Join Now"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/seller_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="Want to Become a Seller ..?"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+
+</RelativeLayout>

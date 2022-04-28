@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rey.material.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Seller.SellerLoginActivity">
+
+
+    <com.rey.material.widget.ImageView
+        android:id="@+id/img_seller_login"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/sellerlogin1"
+        android:scaleType="centerCrop"
+        />
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/title_seller_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seller Login"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/img_seller_login"
+        />
+
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/seller_email_login"
+        android:textColorHint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_seller_login"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/black"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/seller_login_pwd"
+        android:textColorHint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seller_email_login"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/black"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+
+        android:textSize="18sp" />
+
+
+    <com.rey.material.widget.Button
+        android:id="@+id/seller_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seller_login_pwd"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="22sp"
+
+        />
+
+
+
+
+</com.rey.material.widget.RelativeLayout>

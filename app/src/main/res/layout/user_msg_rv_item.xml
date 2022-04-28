@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="end"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardBackgroundColor="#00A884"
+    app:cardCornerRadius="8dp">
+
+    <com.rey.material.widget.LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--text view for displaying user message-->
+        <com.rey.material.widget.TextView
+            android:id="@+id/idTVUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:padding="3dp"
+            android:text="User message"
+            android:textColor="#052B0A"
+            android:textStyle="bold"
+            />
+
+        <!--we are displaying user icon-->
+        <com.rey.material.widget.ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/farmer" />
+
+    </com.rey.material.widget.LinearLayout>
+
+</androidx.cardview.widget.CardView>

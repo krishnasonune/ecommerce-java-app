@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rey.material.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.rey.material.widget.RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@color/purple_700"
+
+        >
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/order_user_name"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="User name"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/ord_phn_num"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Phone num"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentEnd="true"
+            />
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/ord_totalprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cart_prod_quantity"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:text="Total price"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/ord_add_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ord_totalprice"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Address, city"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/ord_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ord_add_city"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Date Time"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <com.rey.material.widget.Button
+            android:id="@+id/ord_details_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ord_date_time"
+            android:text="Order Details"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            />
+
+    </com.rey.material.widget.RelativeLayout>
+
+
+
+
+</com.rey.material.widget.RelativeLayout>

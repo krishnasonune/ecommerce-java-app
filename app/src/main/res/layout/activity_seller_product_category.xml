@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".Seller.SellerProductCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/lin_layout_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="false"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/seeds"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:src="@drawable/seeds"
+            />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="Seeds"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/grains"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:src="@drawable/grainss"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="Grains"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/vegetables"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:src="@drawable/vege"
+            />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="Vegetables"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+             />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/lin_layout_category2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/slogan_category"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentEnd="true"
+        >
+
+        <ImageView
+            android:id="@+id/fertilizers"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:src="@drawable/fertilizers"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="Fertilizers"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+             />
+
+        <ImageView
+            android:id="@+id/pesticides"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:src="@drawable/pesticides"
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="Pesticides"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+             />
+
+        <ImageView
+            android:id="@+id/equipments"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:src="@drawable/equip"
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="Equipments"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+             />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rey.material.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:context=".buyer.PlaceOrderedActivity">
+
+    <com.rey.material.widget.RelativeLayout
+        android:id="@+id/po_rl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/purple_700">
+
+        <com.rey.material.widget.TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Orders Placed"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </com.rey.material.widget.RelativeLayout>
+
+
+    <com.rey.material.widget.RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/po_rl"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/plac_ord_card"
+        android:visibility="visible"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/purple_700"
+        android:padding="10dp">
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/order_user_name2"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="User name"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/ord_phn_num2"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            android:text="Phone num"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/ord_totalprice2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cart_prod_quantity2"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:text="Total price"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/ord_add_city2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ord_totalprice2"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Address, city"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/ord_date_time2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ord_add_city2"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Date Time"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/ord_status_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ord_date_time2"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="status"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.rey.material.widget.Button
+            android:id="@+id/ord_details_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ord_status_2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Order Details"
+            android:textSize="15sp" />
+
+        <com.rey.material.widget.Button
+            android:id="@+id/ord_cancel_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ord_details_btn2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Cancel Orders"
+            android:textSize="15sp" />
+
+    </com.rey.material.widget.RelativeLayout>
+
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/backup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:text="Your Placed Orders will appear here !!"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</com.rey.material.widget.RelativeLayout>

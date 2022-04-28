@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rey.material.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:context=".Admin.AdminHomeActivity">
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/admin_wel_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admin"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        />
+
+        <com.rey.material.widget.Button
+            android:id="@+id/maintain_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/admin_wel_title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button"
+            android:text="Maintain Products"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <com.rey.material.widget.Button
+            android:id="@+id/chk_ord_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check new Orders"
+            android:layout_below="@+id/maintain_btn"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:background="@drawable/button"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+
+
+
+    <com.rey.material.widget.Button
+        android:id="@+id/admin_approve_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check And Approve Products"
+        android:layout_below="@+id/chk_ord_btn"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+
+
+        <com.rey.material.widget.Button
+            android:id="@+id/admin_logout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+</com.rey.material.widget.RelativeLayout>

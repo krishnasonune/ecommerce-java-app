@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rey.material.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Seller.SellerRegistrationActivity">
+
+    <com.rey.material.widget.ImageView
+        android:id="@+id/img_seller"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sellerreg2" />
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/title_seller_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_seller"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Seller Registration"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/seller_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_seller_reg"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/black"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+
+        android:textSize="18sp" />
+
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/seller_phone_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seller_name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/black"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18sp" />
+
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/seller_email"
+        android:textColorHint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seller_phone_num"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/black"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/seller_shop_add"
+        android:textColorHint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seller_pswd"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/black"
+        android:hint="address"
+        android:inputType="textLongMessage"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/seller_pswd"
+        android:textColorHint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seller_email"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/black"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+    <com.rey.material.widget.Button
+        android:id="@+id/seller_reg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seller_shop_add"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <com.rey.material.widget.Button
+        android:id="@+id/seller_already_acc_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/purple_500"
+        android:textAllCaps="false"
+        android:text="already have an account..? login"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+        />
+
+</com.rey.material.widget.RelativeLayout>

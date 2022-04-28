@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rey.material.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".buyer.ConfirmFinalOrderActivity">
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/cfo_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="PLease Confirm Your Details"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/cfo_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cfo_txt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:backgroundTint="#000000"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+
+        />
+
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/cfo_phn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cfo_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:hint="Phone no"
+        android:inputType="phone"
+        android:backgroundTint="#000000"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+
+        />
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/cfo_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cfo_phn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:backgroundTint="#000000"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+
+        />
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/cfo_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cfo_add"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:hint="City"
+        android:inputType="textLongMessage"
+        android:backgroundTint="#000000"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+
+        />
+
+    <com.rey.material.widget.Button
+        android:id="@+id/final_ordr_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/button"
+        android:text="Confirm"
+        android:textColor="@color/white" />
+
+</com.rey.material.widget.RelativeLayout>

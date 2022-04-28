@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/farmerlogin"
+    tools:context=".buyer.Login_Activity">
+
+    <ImageView
+        android:id="@+id/login_app_logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/farmapplogo"/>
+
+
+    <EditText
+        android:id="@+id/input_phone_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_app_logo"
+        android:background="@drawable/input_design"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Phone number"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <EditText
+        android:id="@+id/login_pswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_phone_no"
+        android:background="@drawable/input_design"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lin_layout"
+        android:layout_below="@id/login_pswd"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+        <com.rey.material.widget.CheckBox
+            android:id="@+id/remember_me_chkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Material.Drawable.CheckBox"
+            android:text="Remember me"
+            android:textColor="@color/white"
+
+            android:gravity="center_vertical"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="17dp"
+
+            />
+
+            <TextView
+                android:id="@+id/forget_pswd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Forget password ?"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginLeft="95dp"
+                />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/loginpg_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lin_layout"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="login"
+        android:textSize="18sp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/admin_panel_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginpg_login_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="I'm Admin?"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/not_admin_panel_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Not an Admin?"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/loginpg_login_btn"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginRight="95dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>

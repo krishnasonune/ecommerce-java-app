@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rey.material.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Admin.AboutUsActivity">
+
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/imageSlider"
+        android:background="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleEnabled="true"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="1dp"
+        app:sliderIndicatorSelectedColor="#5A5A5A"
+        app:sliderIndicatorUnselectedColor="#FFF"
+        app:sliderScrollTimeInSec="1"
+        app:sliderStartAutoCycle="true"
+
+
+        />
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/txt1"
+        android:layout_below="@+id/imageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We created this app to help needy farmers through our Prayas Foundation"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:textColor="@color/black"
+
+        />
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/txt2"
+        android:layout_below="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show your support and purchase products directly from farmer through Farm-A-Zon App"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+
+        />
+
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/txt3"
+        android:layout_above="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created by"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+
+        />
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/txt4"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prathamesh, Kunal, Ritik"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/black"
+
+        />
+
+
+
+</com.rey.material.widget.RelativeLayout>
